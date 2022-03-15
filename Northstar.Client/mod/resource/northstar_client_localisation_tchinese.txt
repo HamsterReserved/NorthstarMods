@@ -122,9 +122,9 @@
 		"PL_hidden_hint" "一位玩家是幽靈。其他人獵殺幽靈。"
 		"PL_hidden_abbr" "HIDDEN幽靈獵殺"
 		"GAMEMODE_HIDDEN" "幽靈獵殺"
-		"HIDDEN_YOU_ARE_HIDDEN" "你成爲了幽靈!"
-		"HIDDEN_KILL_SURVIVORS" "擊殺所有幸存者!"
-		"HIDDEN_FIRST_HIDDEN" "%s1 成爲了幽靈."
+		"HIDDEN_YOU_ARE_HIDDEN" "你是幽靈!"
+		"HIDDEN_KILL_SURVIVORS" "獵殺所有倖存者!"
+		"HIDDEN_FIRST_HIDDEN" "%s1 是幽靈"
 
 		"PL_sns" "針鋒相對"
 		"PL_sns_lobby" "針鋒相對 大廳"
@@ -227,7 +227,7 @@
 		"fp_embark_enabled" "第一人稱上機/處決"//最好不要打開，上機、處決時按esc打開配置界面會崩潰，崩潰不影響其他人
 		"classic_rodeo" "經典訓牛術"//一代
 		"oob_timer_enabled" "出界計時器"
-		"riff_instagib" "瞬殺模式
+		"riff_instagib" "瞬殺模式"
 
 		"riff_player_bleedout" "鐵馭流血模式"
 		"player_bleedout_forceHolster" "倒地無法使用武器"
@@ -302,5 +302,9 @@
 		"SHOW_ALL" "全部"
 		"SHOW_ONLY_ENABLED" "僅啟用"
 		"SHOW_ONLY_DISABLED" "僅停用"
+
+		// Maps menu
+		"HIDE_LOCKED" "隱藏鎖定地圖"
+		
 	}
 }
