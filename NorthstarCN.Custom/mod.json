@@ -1,0 +1,18 @@
+{
+	"Name": "NorthstarCN.Custom",
+	"Description": "Custom content for NorthstarCN. FOR FUTURE ",
+	"Version": "1.6.0",
+	"LoadPriority": 1,
+	"Scripts":[
+		{
+			"Path": "nscn_logo_rui.nut",
+			"RunOn": "CLIENT",
+			"ClientCallback": {
+				"After": "nscnRuiPrecache"
+			}
+		}
+	],
+	"Localisation": [
+		"resource/northstar_client_localisation_%language%.txt"
+	]
+}

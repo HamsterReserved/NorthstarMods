@@ -70,9 +70,10 @@ void function InitMainMenu()
 
 void function OnMainMenu_Open()
 {
-	SetConVarString("communities_hostname","")
 	Signal( uiGlobal.signalDummy, "EndOnMainMenu_Open" )
 	EndSignal( uiGlobal.signalDummy, "EndOnMainMenu_Open" )
+
+	SetConVarString( "communities_hostname", "" ) // disable communities due to crash exploits that are still possible through it
 
 	UpdatePromoData() // On script restarts this gives us the last data until the new request is complete
 	RequestMainMenuPromos() // This will be ignored if there was a recent request. "infoblock_requestInterval"

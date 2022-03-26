@@ -5,7 +5,7 @@
 	{
 		// This file needs to be encoded as UTF-16 LE
 
-		"MENU_LAUNCH_NORTHSTAR" "啟動 NorthStarCN v1.5.1"
+		"MENU_LAUNCH_NORTHSTAR" "啟動 NorthStarCN v1.6.0"
 		"MENU_TITLE_MODS" "模組MODS"
 		"RELOAD_MODS" "重新加載模組 MODS"
 		"WARNING" "警告"
@@ -40,7 +40,7 @@
 
 		"MENU_MATCH_SETTINGS" "比賽設定"
 		"MENU_MATCH_SETTINGS_SUBMENU" "%s1 設定"
-		
+
 		"PRIVATE_MATCH_SINGLEPLAYER_LEVEL" "%s1 （戰役）"
 
 		// fra hint for private match menu, because fra only has PL_fra_desc in vanilla
@@ -181,7 +181,7 @@
 		"HIDEANDSEEK_YOU_ARE_LAST_HIDER" "你是最後的躲藏者"
 		"HIDEANDSEEK_GOT_STIM" "You are stimmed! Don't get caught!你獲取興奮劑了！不要被抓住！"
 		"hideandseek_balance_teams" "自動平衡 躲藏者/尋覓者"
-		"hideandseek_hiding_time" "躲藏階段時間" 
+		"hideandseek_hiding_time" "躲藏階段時間"
 
 		// these are defined in r1_english but titan war is a shit name so i'm changing it to another one that was referenced in development
 		"GAMEMODE_fw" "Frontier War邊境戰爭"
@@ -305,6 +305,9 @@
 
 		// Maps menu
 		"HIDE_LOCKED" "隱藏鎖定地圖"
-		
+
+		// In-game chat
+		"HUD_CHAT_WHISPER_PREFIX" "[悄悄話]"
+		"HUD_CHAT_SERVER_PREFIX" "[伺服器]"
 	}
 }
