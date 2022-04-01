@@ -4,9 +4,9 @@ FontFileTable
 	"Default"					"resource/loli.ttf"		[$JAPANESE]
 	"Default"					"resource/loli.ttf"		[$TCHINESE]
 
-	"DefaultBold"				"resource/loli.ttf"	[!$JAPANESE && !$TCHINESE]
-	"DefaultBold"				"resource/loli.ttf"		[$JAPANESE]
-	"DefaultBold"				"resource/loli.ttf"		[$TCHINESE]
+	"DefaultBold"				"resource/loli-bold.ttf"	[!$JAPANESE && !$TCHINESE]
+	"DefaultBold"				"resource/loli-bold.ttf"		[$JAPANESE]
+	"DefaultBold"				"resource/loli-bold.ttf"		[$TCHINESE]
 
 	"Titanfall"					"resource/loli.ttf"		[!$JAPANESE && !$TCHINESE && !$RUSSIAN]
 	"Titanfall"					"resource/loli.ttf"		[$JAPANESE]
